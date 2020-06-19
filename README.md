@@ -7,6 +7,16 @@ https://github.com/Fmstrat/samba-domain
 Original project used Ubuntu Xenial as a base for the image, but since I find Debian much better fit here 
 [and I also considered adding some more functionality here], I have decided to fork original project.
 
+It is enough to add these below environment variables for Samba4 DC to go up and be functional:
+
+      - DOMAIN=xms.local
+      - DOMAINPASS=mypassword
+      - HOSTIP=192.168.2.8
+      - INSECURELDAP=true
+
+The rest is there for more complicated setups, like the ones with Trusted Domains, etc.
+
+
 Original documentation below:
 
 # Samba Active Directory Domain Controller for Docker
