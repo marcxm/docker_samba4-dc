@@ -1,5 +1,5 @@
-FROM ubuntu:xenial
-MAINTAINER Fmstrat <fmstrat@NOSPAM.NO>
+FROM ubuntu:debian
+MAINTAINER Fmstrat <fmstrat@NOSPAM.NO>, marc <marc_smith@gmx.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 

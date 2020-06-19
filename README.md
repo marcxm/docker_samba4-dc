@@ -1,3 +1,14 @@
+# docker_samba4-dc
+
+This is a fork of a very good project:
+
+https://github.com/Fmstrat/samba-domain
+
+Original project used Ubuntu Xenial as a base for the image, but since I find Debian much better fit here 
+[and I also considered adding some more functionality here], I have decided to fork original project.
+
+Original documentation below:
+
 # Samba Active Directory Domain Controller for Docker
 
 A well documented, tried and tested Samba Active Directory Domain Controller that works with the standard Windows management tools; built from scratch using internal DNS and kerberos and not based on existing containers.
